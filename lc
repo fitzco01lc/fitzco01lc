@@ -1,0 +1,7 @@
+#!/bin/bash
+
+if [ "$#" -ne 2 ]
+then
+	echo "usage: lc file1 file2"
+fi
+makelower < $1 > $2
